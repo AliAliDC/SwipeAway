@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E156B89F2120768A00C5FEA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E156B89E2120768A00C5FEA6 /* AppDelegate.swift */; };
+		E156B8A12120768A00C5FEA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E156B8A02120768A00C5FEA6 /* ViewController.swift */; };
+		E156B8A42120768A00C5FEA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E156B8A22120768A00C5FEA6 /* Main.storyboard */; };
+		E156B8A62120768C00C5FEA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E156B8A52120768C00C5FEA6 /* Assets.xcassets */; };
+		E156B8A92120768C00C5FEA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E156B8A72120768C00C5FEA6 /* LaunchScreen.storyboard */; };
+		E156B8B42120768C00C5FEA6 /* SwipeAwayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E156B8B32120768C00C5FEA6 /* SwipeAwayTests.swift */; };
+		E156B8BF2120768C00C5FEA6 /* SwipeAwayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E156B8BE2120768C00C5FEA6 /* SwipeAwayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E156B8B02120768C00C5FEA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E156B8932120768A00C5FEA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E156B89A2120768A00C5FEA6;
+			remoteInfo = SwipeAway;
+		};
+		E156B8BB2120768C00C5FEA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E156B8932120768A00C5FEA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E156B89A2120768A00C5FEA6;
+			remoteInfo = SwipeAway;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E156B89B2120768A00C5FEA6 /* SwipeAway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeAway.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E156B89E2120768A00C5FEA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E156B8A02120768A00C5FEA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E156B8A32120768A00C5FEA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E156B8A52120768C00C5FEA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E156B8A82120768C00C5FEA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E156B8AA2120768C00C5FEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E156B8AF2120768C00C5FEA6 /* SwipeAwayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeAwayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E156B8B32120768C00C5FEA6 /* SwipeAwayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAwayTests.swift; sourceTree = "<group>"; };
+		E156B8B52120768C00C5FEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E156B8BA2120768C00C5FEA6 /* SwipeAwayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeAwayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E156B8BE2120768C00C5FEA6 /* SwipeAwayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAwayUITests.swift; sourceTree = "<group>"; };
+		E156B8C02120768C00C5FEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E156B8982120768A00C5FEA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E156B8AC2120768C00C5FEA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E156B8B72120768C00C5FEA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E156B8922120768A00C5FEA6 = {
+			isa = PBXGroup;
+			children = (
+				E156B89D2120768A00C5FEA6 /* SwipeAway */,
+				E156B8B22120768C00C5FEA6 /* SwipeAwayTests */,
+				E156B8BD2120768C00C5FEA6 /* SwipeAwayUITests */,
+				E156B89C2120768A00C5FEA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E156B89C2120768A00C5FEA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E156B89B2120768A00C5FEA6 /* SwipeAway.app */,
+				E156B8AF2120768C00C5FEA6 /* SwipeAwayTests.xctest */,
+				E156B8BA2120768C00C5FEA6 /* SwipeAwayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E156B89D2120768A00C5FEA6 /* SwipeAway */ = {
+			isa = PBXGroup;
+			children = (
+				E156B89E2120768A00C5FEA6 /* AppDelegate.swift */,
+				E156B8A02120768A00C5FEA6 /* ViewController.swift */,
+				E156B8A22120768A00C5FEA6 /* Main.storyboard */,
+				E156B8A52120768C00C5FEA6 /* Assets.xcassets */,
+				E156B8A72120768C00C5FEA6 /* LaunchScreen.storyboard */,
+				E156B8AA2120768C00C5FEA6 /* Info.plist */,
+			);
+			path = SwipeAway;
+			sourceTree = "<group>";
+		};
+		E156B8B22120768C00C5FEA6 /* SwipeAwayTests */ = {
+			isa = PBXGroup;
+			children = (
+				E156B8B32120768C00C5FEA6 /* SwipeAwayTests.swift */,
+				E156B8B52120768C00C5FEA6 /* Info.plist */,
+			);
+			path = SwipeAwayTests;
+			sourceTree = "<group>";
+		};
+		E156B8BD2120768C00C5FEA6 /* SwipeAwayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E156B8BE2120768C00C5FEA6 /* SwipeAwayUITests.swift */,
+				E156B8C02120768C00C5FEA6 /* Info.plist */,
+			);
+			path = SwipeAwayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E156B89A2120768A00C5FEA6 /* SwipeAway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E156B8C32120768C00C5FEA6 /* Build configuration list for PBXNativeTarget "SwipeAway" */;
+			buildPhases = (
+				E156B8972120768A00C5FEA6 /* Sources */,
+				E156B8982120768A00C5FEA6 /* Frameworks */,
+				E156B8992120768A00C5FEA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeAway;
+			productName = SwipeAway;
+			productReference = E156B89B2120768A00C5FEA6 /* SwipeAway.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E156B8AE2120768C00C5FEA6 /* SwipeAwayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E156B8C62120768C00C5FEA6 /* Build configuration list for PBXNativeTarget "SwipeAwayTests" */;
+			buildPhases = (
+				E156B8AB2120768C00C5FEA6 /* Sources */,
+				E156B8AC2120768C00C5FEA6 /* Frameworks */,
+				E156B8AD2120768C00C5FEA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E156B8B12120768C00C5FEA6 /* PBXTargetDependency */,
+			);
+			name = SwipeAwayTests;
+			productName = SwipeAwayTests;
+			productReference = E156B8AF2120768C00C5FEA6 /* SwipeAwayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E156B8B92120768C00C5FEA6 /* SwipeAwayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E156B8C92120768C00C5FEA6 /* Build configuration list for PBXNativeTarget "SwipeAwayUITests" */;
+			buildPhases = (
+				E156B8B62120768C00C5FEA6 /* Sources */,
+				E156B8B72120768C00C5FEA6 /* Frameworks */,
+				E156B8B82120768C00C5FEA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E156B8BC2120768C00C5FEA6 /* PBXTargetDependency */,
+			);
+			name = SwipeAwayUITests;
+			productName = SwipeAwayUITests;
+			productReference = E156B8BA2120768C00C5FEA6 /* SwipeAwayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E156B8932120768A00C5FEA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Ali Ali";
+				TargetAttributes = {
+					E156B89A2120768A00C5FEA6 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					E156B8AE2120768C00C5FEA6 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = E156B89A2120768A00C5FEA6;
+					};
+					E156B8B92120768C00C5FEA6 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = E156B89A2120768A00C5FEA6;
+					};
+				};
+			};
+			buildConfigurationList = E156B8962120768A00C5FEA6 /* Build configuration list for PBXProject "SwipeAway" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E156B8922120768A00C5FEA6;
+			productRefGroup = E156B89C2120768A00C5FEA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E156B89A2120768A00C5FEA6 /* SwipeAway */,
+				E156B8AE2120768C00C5FEA6 /* SwipeAwayTests */,
+				E156B8B92120768C00C5FEA6 /* SwipeAwayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E156B8992120768A00C5FEA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E156B8A92120768C00C5FEA6 /* LaunchScreen.storyboard in Resources */,
+				E156B8A62120768C00C5FEA6 /* Assets.xcassets in Resources */,
+				E156B8A42120768A00C5FEA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E156B8AD2120768C00C5FEA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E156B8B82120768C00C5FEA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E156B8972120768A00C5FEA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E156B8A12120768A00C5FEA6 /* ViewController.swift in Sources */,
+				E156B89F2120768A00C5FEA6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E156B8AB2120768C00C5FEA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E156B8B42120768C00C5FEA6 /* SwipeAwayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E156B8B62120768C00C5FEA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E156B8BF2120768C00C5FEA6 /* SwipeAwayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E156B8B12120768C00C5FEA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E156B89A2120768A00C5FEA6 /* SwipeAway */;
+			targetProxy = E156B8B02120768C00C5FEA6 /* PBXContainerItemProxy */;
+		};
+		E156B8BC2120768C00C5FEA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E156B89A2120768A00C5FEA6 /* SwipeAway */;
+			targetProxy = E156B8BB2120768C00C5FEA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E156B8A22120768A00C5FEA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E156B8A32120768A00C5FEA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E156B8A72120768C00C5FEA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E156B8A82120768C00C5FEA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E156B8C12120768C00C5FEA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E156B8C22120768C00C5FEA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E156B8C42120768C00C5FEA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwipeAway/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.royalfreshness.SwipeAway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E156B8C52120768C00C5FEA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwipeAway/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.royalfreshness.SwipeAway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E156B8C72120768C00C5FEA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwipeAwayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.royalfreshness.SwipeAwayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeAway.app/SwipeAway";
+			};
+			name = Debug;
+		};
+		E156B8C82120768C00C5FEA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwipeAwayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.royalfreshness.SwipeAwayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeAway.app/SwipeAway";
+			};
+			name = Release;
+		};
+		E156B8CA2120768C00C5FEA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwipeAwayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.royalfreshness.SwipeAwayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwipeAway;
+			};
+			name = Debug;
+		};
+		E156B8CB2120768C00C5FEA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwipeAwayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.royalfreshness.SwipeAwayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwipeAway;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E156B8962120768A00C5FEA6 /* Build configuration list for PBXProject "SwipeAway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E156B8C12120768C00C5FEA6 /* Debug */,
+				E156B8C22120768C00C5FEA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E156B8C32120768C00C5FEA6 /* Build configuration list for PBXNativeTarget "SwipeAway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E156B8C42120768C00C5FEA6 /* Debug */,
+				E156B8C52120768C00C5FEA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E156B8C62120768C00C5FEA6 /* Build configuration list for PBXNativeTarget "SwipeAwayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E156B8C72120768C00C5FEA6 /* Debug */,
+				E156B8C82120768C00C5FEA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E156B8C92120768C00C5FEA6 /* Build configuration list for PBXNativeTarget "SwipeAwayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E156B8CA2120768C00C5FEA6 /* Debug */,
+				E156B8CB2120768C00C5FEA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E156B8932120768A00C5FEA6 /* Project object */;
+}
