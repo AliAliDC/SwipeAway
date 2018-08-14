@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,62 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwipeAway" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SZH-d2-cWL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="SZH-d2-cWL" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="34" id="AzW-6H-lyH"/>
+                            <constraint firstItem="SZH-d2-cWL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ScF-va-wVE"/>
+                            <constraint firstItem="SZH-d2-cWL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ini-jx-hYB"/>
+                            <constraint firstItem="SZH-d2-cWL" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="t1C-zq-Wu2"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="u3Z-JG-vqX" kind="presentation" identifier="SwipeLeft" modalTransitionStyle="flipHorizontal" id="dUz-9h-owV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-98.400000000000006" y="118.22660098522168"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="4Fn-rz-WLc">
+            <objects>
+                <viewController id="u3Z-JG-vqX" customClass="ViewController2" customModule="SwipeAway" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dfb-0d-WKq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uHe-qf-SZZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uHe-qf-SZZ" firstAttribute="bottom" secondItem="buy-XV-fmB" secondAttribute="bottom" constant="34" id="A4l-Id-aU4"/>
+                            <constraint firstItem="uHe-qf-SZZ" firstAttribute="trailing" secondItem="buy-XV-fmB" secondAttribute="trailing" id="Ha7-0e-eKS"/>
+                            <constraint firstItem="uHe-qf-SZZ" firstAttribute="leading" secondItem="buy-XV-fmB" secondAttribute="leading" id="O1t-4T-kyb"/>
+                            <constraint firstItem="uHe-qf-SZZ" firstAttribute="top" secondItem="dfb-0d-WKq" secondAttribute="top" id="i4p-LW-ZxJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="buy-XV-fmB"/>
+                    </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="SwipeRight" modalTransitionStyle="flipHorizontal" id="3va-xw-WTb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pAX-J0-gKA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="714.39999999999998" y="115.27093596059113"/>
         </scene>
     </scenes>
 </document>

@@ -14,6 +14,7 @@
 		E156B8A92120768C00C5FEA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E156B8A72120768C00C5FEA6 /* LaunchScreen.storyboard */; };
 		E156B8B42120768C00C5FEA6 /* SwipeAwayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E156B8B32120768C00C5FEA6 /* SwipeAwayTests.swift */; };
 		E156B8BF2120768C00C5FEA6 /* SwipeAwayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E156B8BE2120768C00C5FEA6 /* SwipeAwayUITests.swift */; };
+		E156B8CD2120791700C5FEA6 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E156B8CC2120791700C5FEA6 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E156B8BA2120768C00C5FEA6 /* SwipeAwayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeAwayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E156B8BE2120768C00C5FEA6 /* SwipeAwayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAwayUITests.swift; sourceTree = "<group>"; };
 		E156B8C02120768C00C5FEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E156B8CC2120791700C5FEA6 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				E156B89E2120768A00C5FEA6 /* AppDelegate.swift */,
 				E156B8A02120768A00C5FEA6 /* ViewController.swift */,
+				E156B8CC2120791700C5FEA6 /* ViewController2.swift */,
 				E156B8A22120768A00C5FEA6 /* Main.storyboard */,
 				E156B8A52120768C00C5FEA6 /* Assets.xcassets */,
 				E156B8A72120768C00C5FEA6 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E156B8A12120768A00C5FEA6 /* ViewController.swift in Sources */,
+				E156B8CD2120791700C5FEA6 /* ViewController2.swift in Sources */,
 				E156B89F2120768A00C5FEA6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 255HXJ7X4Z;
 				INFOPLIST_FILE = SwipeAway/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 255HXJ7X4Z;
 				INFOPLIST_FILE = SwipeAway/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
